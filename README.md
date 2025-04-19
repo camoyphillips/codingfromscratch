@@ -1,41 +1,90 @@
-# JavaScript Slideshow
+#  Coding From Scratch Projects - Built From Scratch
 
-A basic vanilla JavaScript slideshow.
+A collection of small but meaningful web projects developed from the ground up using HTML, CSS, and JavaScript. These include API integration, dynamic UI components, and a probability simulation.
 
-## Coding from Scratch
+---
 
-When coding something like a JavaScript slideshow, half of the problem is understanding how to split the lager objective into small steps. Download a copy of the `index.html`, `styles.caa`, and `slideshow.js` files and then follow these steps. Do not proceed to the next step until the current one is done and tested. 
+##  Projects Included
 
-1. The images all need to be stacked on top of each other instead of underneath each other. Use CSS to place the images on top of each other.
-  
-2. Only one image meedds to be visible at a time. Use CSS to hide all the images but the first one.
-   
-3. In the `slideshow.js` file, define a `current` variable to track the current image. Set it to zero. This variable will go form zero, to three, and then back to zero (because there ar four images).
+### 1.  Google Books API Integration
 
-4. Define a `total` variable to track the number of images. Set it to four.
+#### Description
+This project uses the Google Books API to search and display book titles based on a keyword (e.g., "JavaScript"). It dynamically creates a list of books, each with a title, thumbnail, and link.
 
-5. Add a click event to the next button. For now `console.log()` the word "next" when the button is clicked. This will confirm that the button is working.
+- **Technologies Used**:  
+  - HTML/CSS  
+  - Vanilla JavaScript  
+  - Google Books API  
 
-6. Inside the `next` button click event, increase `current` variable by one. Use `console.log()` to confirm that the variable has increased.
+- **Challenges**:  
+  - Parsing deeply nested API responses  
+  - Handling missing image links gracefully  
 
-7. Inside the `next` button click event, add an if statement that will reset the `current` variable to zero when the `current` variable is too high.
+- **Future Features**:  
+  - Add search input for custom queries  
+  - Implement pagination for large results  
 
-8. Inside the `next` button click event, hide all images and then display the image based on the number inside the `current` variable. 
+---
 
-9. Redo steps five through eight except for a previous button.
+### 2.  JavaScript Accordion
 
-10. Using JavaScript `setInterval()` function, make the slideshow automatically change images every five seconds.
+#### Description
+An interactive accordion menu that expands and collapses sections when clicked, providing a clean way to display FAQs or categorized content.
 
-> [!Note]
-> There are sample code files for steps one through six. Try to complete each step without the samples. Use them as a last resort.
+- **Technologies Used**:  
+  - HTML/CSS  
+  - JavaScript (custom toggle logic)
 
-***
+- **Challenges**:  
+  - Managing state for multiple sections  
+  - Ensuring accessibility (future goal)  
 
-## Repo Resources
+- **Future Features**:  
+  - Keyboard navigation support  
+  - Animations for expanding/collapsing  
 
-* [Visual Studio Code](https://code.visualstudio.com/)
+---
 
-<br>
-<a href="https://codeadam.ca">
-<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
-</a>
+### 3.  JavaScript Slideshow
+
+#### Description  
+A simple image slideshow that allows users to navigate through a series of images using "Previous" and "Next" buttons.
+
+- **Technologies Used**:  
+  - HTML/CSS  
+  - JavaScript for image swapping  
+
+- **Challenges**:  
+  - Managing slide index and wrapping logic  
+
+- **Future Features**:  
+  - Auto-play option with timer  
+  - Touch/swipe support for mobile  
+
+---
+
+### 4.  Monty Hall Simulation
+
+#### Description  
+A simulation of the classic Monty Hall problem run in the browser. It demonstrates how switching doors affects win probability over 10 trials.
+
+- **Technologies Used**:  
+  - HTML/CSS  
+  - JavaScript (random logic, counters, DOM updates)  
+
+- **Challenges**:  
+  - Implementing game logic  
+  - Visualizing results  
+
+- **Future Features**:  
+  - User interaction (click to choose a door)  
+  - Adjustable number of simulations  
+
+---
+
+##  How to Install and Run
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/https://github.com/camoyphillips/codingfromscratch.git
+   cd codingfromscratch.git
